@@ -17,7 +17,7 @@ class Solution
           x--;
         }
 
-        return A - B;
+        return Math.Abs(A - B);
     }
 
     static void Main(String[] args)
